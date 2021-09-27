@@ -1,4 +1,4 @@
-19260153620859644
+19273214769362411
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55291,6 +55291,62 @@ SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with number
 solder jumper open
 0
 5
+3
+L0003 Wheatstone Bridge
+12V_power_jack
+12V DC Barrel Jack with a Mounting Pin
+
+0
+3
+3
+L0003 Wheatstone Bridge
+2043-1X04G00DAU
+4 Pin Header
+
+0
+4
+4
+L0003 Wheatstone Bridge
+CAP_0603
+1 microFarad Ceramic Capacitor
+
+0
+2
+2
+L0003 Wheatstone Bridge
+MCP1703T-4002E&slash_DB
+4V Linear Regulator
+
+0
+3
+3
+L0003 Wheatstone Bridge
+RES_0603
+1 kOhm Resistor
+
+0
+2
+2
+L0003 Wheatstone Bridge
+T491A106K010AT
+10 microFarad Tantalum Capacitor
+
+0
+2
+2
+L0003 Wheatstone Bridge
+TP
+Test Point
+
+0
+1
+1
+L0003 Wheatstone Bridge
+TRIM_3310Y-001-102L
+1 kOhm Potentiometer
+
+0
+3
 3
 LED_SMD
 LED-APA102-2020
