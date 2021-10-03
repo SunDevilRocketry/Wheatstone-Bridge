@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name L0003-Wheatstone-Bridge)(type Legacy)(uri /Users/chandlerostroff/SDR/L0003-Wheatstone-Bridge/lib/L0003-Wheatstone-Bridge.lib)(options "")(descr ""))
-  (lib (name "Wheatstone Bridge-rescue")(type Legacy)(uri "/Users/chandlerostroff/Documents/Kicad Things/Wheatstone Bridge/Wheatstone Bridge-rescue.lib")(options "")(descr ""))
-  (lib (name "L0003 Wheatstone Bridge")(type Legacy)(uri "C:/Users/gza12/OneDrive/Desktop/KiCAD intro project/L0003 Wheatstone Bridge.lib")(options "")(descr ""))
+  (lib (name L0003-Wheatstone-Bridge)(type Legacy)(uri C:/Users/gza12/OneDrive/Documents/GitHub/L0003-Wheatstone-Bridge/lib/L0003-Wheatstone-Bridge.lib)(options "")(descr ""))
 )
