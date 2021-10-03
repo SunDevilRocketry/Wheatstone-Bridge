@@ -10,8 +10,18 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
+$CMP Earth
+D Power symbol creates a global label with name "Earth"
+K power-flag ground gnd
+F ~
+$ENDCMP
+#
 $CMP RES_0603
 D 1kOhm Resistor
+$ENDCMP
+#
+$CMP SML-LX1206GC-TR
+D Green LED
 $ENDCMP
 #
 $CMP TP
