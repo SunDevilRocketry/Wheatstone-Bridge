@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2043-1X04G00DAU
+D 4 Pin Header
+$ENDCMP
+#
 $CMP CAP_0603
 D 1microFarad Ceramic Capacitor
 $ENDCMP
