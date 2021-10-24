@@ -1,4 +1,373 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L L0003-Wheatstone-Bridge:Earth #PWR01
+U 1 1 6175D607
+P 1200 2950
+F 0 "#PWR01" H 1200 2700 50  0001 C CNN
+F 1 "Earth" H 1200 2800 50  0001 C CNN
+F 2 "" H 1200 2950 50  0001 C CNN
+F 3 "~" H 1200 2950 50  0001 C CNN
+	1    1200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:MCP1703T-4002E_DB U1
+U 1 1 6175E24A
+P 2100 2550
+F 0 "U1" H 2100 2701 50  0000 C CNN
+F 1 "MCP1703T-4002E_DB" H 2100 2675 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2100 2750 50  0001 C CNN
+F 3 "" H 2100 2500 50  0001 C CNN
+	1    2100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:CAP_0603 C1
+U 1 1 6175EE3B
+P 1650 3000
+F 0 "C1" V 1604 3103 50  0000 L CNN
+F 1 "1uF" V 1695 3103 50  0000 L CNN
+F 2 "" H 1550 2600 50  0001 L BNN
+F 3 "" H 1600 3000 50  0001 L BNN
+	1    1650 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:TP TP1
+U 1 1 617603D5
+P 2750 2550
+F 0 "TP1" H 2828 2738 50  0000 L CNN
+F 1 "TP1" H 2828 2647 50  0000 L CNN
+F 2 "" H 2750 2550 50  0001 C CNN
+F 3 "" H 2750 2550 50  0001 C CNN
+	1    2750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:SML-LX1206GC-TR D1
+U 1 1 6176122F
+P 3150 2750
+F 0 "D1" H 3379 2783 60  0000 L CNN
+F 1 "SML-LX1206GC-TR" H 3379 2730 60  0001 L CNN
+F 2 "" H 3350 2390 60  0001 C CNN
+F 3 "" V 3150 3000 60  0000 C CNN
+	1    3150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:RES_0603 R1
+U 1 1 617624A6
+P 3150 3050
+F 0 "R1" V 3104 3119 50  0000 L CNN
+F 1 "240" V 3195 3119 50  0000 L CNN
+F 2 "" H 3200 2550 50  0001 L BNN
+F 3 "" H 3150 3050 50  0001 L BNN
+	1    3150 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:Earth #PWR02
+U 1 1 61763928
+P 2100 3250
+F 0 "#PWR02" H 2100 3000 50  0001 C CNN
+F 1 "Earth" H 2100 3100 50  0001 C CNN
+F 2 "" H 2100 3250 50  0001 C CNN
+F 3 "~" H 2100 3250 50  0001 C CNN
+	1    2100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2850 1650 2550
+Connection ~ 1650 2550
+Wire Wire Line
+	1650 2550 1800 2550
+Wire Wire Line
+	1650 3150 1650 3250
+Wire Wire Line
+	1650 3250 2100 3250
+Wire Wire Line
+	2100 2850 2100 3250
+Connection ~ 2100 3250
+Wire Wire Line
+	2100 3250 2400 3250
+Connection ~ 2400 2550
+$Comp
+L L0003-Wheatstone-Bridge:Earth #PWR03
+U 1 1 6176D838
+P 3150 3250
+F 0 "#PWR03" H 3150 3000 50  0001 C CNN
+F 1 "Earth" H 3150 3100 50  0001 C CNN
+F 2 "" H 3150 3250 50  0001 C CNN
+F 3 "~" H 3150 3250 50  0001 C CNN
+	1    3150 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3350 2550 2    50   Input ~ 0
++5V
+Wire Notes Line
+	800  2000 4400 2000
+Wire Notes Line
+	4400 2000 4400 3600
+Wire Notes Line
+	4400 3600 800  3600
+Wire Notes Line
+	800  3600 800  2000
+Text Notes 850  3550 0    50   ~ 0
+POWER SUPPLY
+$Comp
+L L0003-Wheatstone-Bridge:2043-1X04G00DAU P2
+U 1 1 61774199
+P 5150 2250
+F 0 "P2" V 5392 1822 60  0000 R CNN
+F 1 "2043-1X04G00DAU" V 5339 1822 60  0001 R CNN
+F 2 "CONN_2043-1X04G00DAU_OUP" H 5500 1700 60  0001 C CNN
+F 3 "" H 5150 2250 60  0000 C CNN
+	1    5150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:Earth #PWR04
+U 1 1 617769C6
+P 5450 2250
+F 0 "#PWR04" H 5450 2000 50  0001 C CNN
+F 1 "Earth" H 5450 2100 50  0001 C CNN
+F 2 "" H 5450 2250 50  0001 C CNN
+F 3 "~" H 5450 2250 50  0001 C CNN
+	1    5450 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 2250 0    50   Input ~ 0
++5V
+Text GLabel 5250 2250 3    50   Input ~ 0
+Vout+
+Text GLabel 5350 2250 3    50   Input ~ 0
+Vout-
+Text Notes 4850 2800 0    50   ~ 0
+PINS
+$Comp
+L L0003-Wheatstone-Bridge:3310Y-001-102L R2
+U 1 1 61778DF8
+P 7800 2650
+F 0 "R2" H 8094 2696 50  0000 L CNN
+F 1 "1k" H 8094 2605 50  0000 L CNN
+F 2 "" V 7730 2650 50  0001 C CNN
+F 3 "" H 7800 2650 50  0001 C CNN
+	1    7800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:TP TP2
+U 1 1 6177A074
+P 7800 3000
+F 0 "TP2" V 7585 3142 50  0000 C CNN
+F 1 "TP2" V 7676 3142 50  0000 C CNN
+F 2 "" H 7800 3000 50  0001 C CNN
+F 3 "" H 7800 3000 50  0001 C CNN
+	1    7800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:TP TP3
+U 1 1 6177A6FC
+P 8850 3000
+F 0 "TP3" V 9065 3142 50  0000 C CNN
+F 1 "TP3" V 8974 3142 50  0000 C CNN
+F 2 "" H 8850 3000 50  0001 C CNN
+F 3 "" H 8850 3000 50  0001 C CNN
+	1    8850 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:RES_0603 R4
+U 1 1 6177B705
+P 8850 2700
+F 0 "R4" V 8804 2769 50  0000 L CNN
+F 1 "1k" V 8895 2769 50  0000 L CNN
+F 2 "" H 8900 2200 50  0001 L BNN
+F 3 "" H 8850 2700 50  0001 L BNN
+	1    8850 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:RES_0603 R3
+U 1 1 6177D138
+P 7800 3300
+F 0 "R3" V 7754 3369 50  0000 L CNN
+F 1 "1k" V 7845 3369 50  0000 L CNN
+F 2 "" H 7850 2800 50  0001 L BNN
+F 3 "" H 7800 3300 50  0001 L BNN
+	1    7800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:RES_0603 R5
+U 1 1 6177DE13
+P 8850 3300
+F 0 "R5" V 8804 3369 50  0000 L CNN
+F 1 "1k" V 8895 3369 50  0000 L CNN
+F 2 "" H 8900 2800 50  0001 L BNN
+F 3 "" H 8850 3300 50  0001 L BNN
+	1    8850 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:Earth #PWR05
+U 1 1 6177EBB6
+P 8350 3500
+F 0 "#PWR05" H 8350 3250 50  0001 C CNN
+F 1 "Earth" H 8350 3350 50  0001 C CNN
+F 2 "" H 8350 3500 50  0001 C CNN
+F 3 "~" H 8350 3500 50  0001 C CNN
+	1    8350 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3500 8350 3500
+Connection ~ 8350 3500
+Wire Wire Line
+	8350 3500 8850 3500
+Wire Wire Line
+	8850 3100 8850 3000
+Connection ~ 8850 3000
+Wire Wire Line
+	8850 3000 8850 2900
+Wire Wire Line
+	7800 3100 7800 3000
+Connection ~ 7800 3000
+Wire Wire Line
+	7800 3000 7800 2800
+Text GLabel 8350 2300 0    50   Input ~ 0
++5V
+Wire Wire Line
+	8350 2300 8350 2500
+Text Notes 7200 3950 0    50   ~ 0
+WHEATSTONE BRIDGE
+Text GLabel 9100 3000 2    50   Input ~ 0
+Vout-
+Text GLabel 7550 3000 0    50   Input ~ 0
+Vout+
+$Comp
+L L0003-Wheatstone-Bridge:EJ508A P1
+U 1 1 6178B542
+P 1200 2650
+F 0 "P1" H 1257 2967 50  0000 C CNN
+F 1 "12V" H 1257 2876 50  0000 C CNN
+F 2 "" H 1250 2610 50  0001 C CNN
+F 3 "~" H 1250 2610 50  0001 C CNN
+	1    1200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2550 1650 2550
+Wire Wire Line
+	1500 2750 1500 2950
+Wire Wire Line
+	1500 2950 1200 2950
+Connection ~ 1200 2950
+$Comp
+L L0003-Wheatstone-Bridge:Mounting-Hole H1
+U 1 1 61793FCB
+P 1000 2200
+F 0 "H1" H 1208 2246 50  0000 L CNN
+F 1 "Mounting-Hole" H 1208 2155 50  0000 L CNN
+F 2 "" H 1000 2200 50  0001 C CNN
+F 3 "" H 1000 2200 50  0001 C CNN
+	1    1000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:Mounting-Hole H2
+U 1 1 617947D8
+P 5900 1750
+F 0 "H2" H 6108 1796 50  0000 L CNN
+F 1 "Mounting-Hole" H 6108 1705 50  0000 L CNN
+F 2 "" H 5900 1750 50  0001 C CNN
+F 3 "" H 5900 1750 50  0001 C CNN
+	1    5900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L L0003-Wheatstone-Bridge:Mounting-Hole H3
+U 1 1 617992D5
+P 8700 3750
+F 0 "H3" H 8908 3796 50  0000 L CNN
+F 1 "Mounting-Hole" H 8908 3705 50  0000 L CNN
+F 2 "" H 8700 3750 50  0001 C CNN
+F 3 "" H 8700 3750 50  0001 C CNN
+	1    8700 3750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7150 2050 9550 2050
+Wire Notes Line
+	9550 2050 9550 4000
+Wire Notes Line
+	9550 4000 7150 4000
+Wire Notes Line
+	7150 4000 7150 2050
+Wire Notes Line
+	4800 1500 6700 1500
+Wire Notes Line
+	6700 1500 6700 2850
+Wire Notes Line
+	6700 2850 4800 2850
+Wire Notes Line
+	4800 2850 4800 1500
+$Comp
+L L0003-Wheatstone-Bridge:Logo LOGO1
+U 1 1 6179FC65
+P 3750 3350
+F 0 "LOGO1" H 3928 3396 50  0000 L CNN
+F 1 "Logo" H 3928 3305 50  0000 L CNN
+F 2 "" H 3750 3350 50  0001 C CNN
+F 3 "" H 3750 3350 50  0001 C CNN
+	1    3750 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8350 2500
+Wire Wire Line
+	8350 2500 8850 2500
+Wire Wire Line
+	7800 2500 8350 2500
+Wire Wire Line
+	3150 2550 3350 2550
+Connection ~ 3150 2550
+Connection ~ 2750 2550
+Wire Wire Line
+	2750 2550 3150 2550
+Wire Wire Line
+	2400 2550 2750 2550
+$Comp
+L L0003-Wheatstone-Bridge:T491A106K010AT C2
+U 1 1 6175F910
+P 2400 3000
+F 0 "C2" H 2491 3046 50  0000 L CNN
+F 1 "10uF" H 2491 2955 50  0000 L CNN
+F 2 "" H 2400 3000 50  0001 C CNN
+F 3 "" H 2400 3000 50  0001 C CNN
+	1    2400 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3250 2400 3100
+Wire Wire Line
+	2400 2550 2400 2900
+Wire Wire Line
+	7550 3000 7800 3000
+Wire Wire Line
+	8850 3000 9100 3000
 $EndSCHEMATC
