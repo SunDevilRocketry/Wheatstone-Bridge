@@ -4,6 +4,10 @@ $CMP 2043-1X04G00DAU
 D 4 Pin Header
 $ENDCMP
 #
+$CMP 3310Y-001-102L
+D Potentiometer
+$ENDCMP
+#
 $CMP CAP_0603
 D 1microFarad Ceramic Capacitor
 $ENDCMP
