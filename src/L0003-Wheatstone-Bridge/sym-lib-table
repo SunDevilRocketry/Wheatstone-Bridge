@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name "L0003-Wheatstone-Bridge")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0003-Wheatstone-Bridge/lib/L0003-Wheatstone-Bridge.kicad_sym")(options "")(descr ""))
+  (lib (name "Engine-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/lib/Engine-Controller.kicad_sym")(options "")(descr ""))
+  (lib (name "PT-Hub")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0006-PT-Hub/lib/PT-Hub.kicad_sym")(options "")(descr ""))
 )
