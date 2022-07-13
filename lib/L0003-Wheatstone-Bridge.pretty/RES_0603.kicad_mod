@@ -33,4 +33,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "/home/olsport/Documents/SDR/PCB/Wheatstone-Bridge/CAD/3Dfiles/STA_RNCP0603_STP.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -38,4 +38,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -180 -90))
   )
+  (model "/home/olsport/Documents/SDR/PCB/Wheatstone-Bridge/CAD/3Dfiles/3310y-001-102l.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 -90))
+  )
 )

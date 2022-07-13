@@ -57,4 +57,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))
   )
+  (model "/home/olsport/Documents/SDR/PCB/Wheatstone-Bridge/CAD/3Dfiles/partno.step"
+    (offset (xyz 1.524 0.762 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )

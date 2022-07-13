@@ -82,4 +82,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 -180))
   )
+  (model "/home/olsport/Documents/SDR/PCB/Liquid-Engine-Controller/CAD/3Dfiles/039299043.step"
+    (offset (xyz -2.159 2.54 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

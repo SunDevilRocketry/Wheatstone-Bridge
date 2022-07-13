@@ -382,7 +382,7 @@
       "idf": "",
       "netlist": "L0003-Wheatstone-Bridge.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../CAD/L0003-Wheatstone-Bridge.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
